@@ -20,8 +20,7 @@ print("Welcome, {}! Your number, {}...".format(name, number))
 is_fizz = number % 3 == 0
 is_buzz = number % 5 == 0
 
-# Using the variables, check the condition of the value, and print the necessary
-# string
+# Using the variables, check the condition of the value, and print the necessary string
 
 if (is_fizz) and (is_buzz):
   print("is a FizzBuzz number.")
